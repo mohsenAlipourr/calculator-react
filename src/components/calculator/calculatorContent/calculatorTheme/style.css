@@ -1,0 +1,23 @@
+.contentTheme{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #292d36;
+    width: 79px;
+    height: 31px;
+    border-radius: 9px;
+    background-color: #292d36;
+    margin-top: 10px;
+}
+.contentThemeImg{
+    width: 20px;
+    cursor: pointer;
+}
+.contentThemeImgActive {
+    border: 1px solid #a7a7a7;
+    border-radius: 8px;
+}
+.contentThemeActive{
+    background-color: #efefef;
+    border: 1px solid #f9f9f9;
+}

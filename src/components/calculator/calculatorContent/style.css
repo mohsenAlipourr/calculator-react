@@ -1,0 +1,35 @@
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 265px;
+    height: 490px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #22252d;
+}
+.calculatorActive{
+    background-color: #ffffff;
+}
+.calculatorContent{
+    direction: rtl;
+}
+.contentContentHistory{
+    color: #cdcdcd;
+    width: 225px;
+    height: 25px;
+}
+.contentContentResult{
+    color: #ffffff;
+    font-size: 40px;
+    margin: -8px 0px 15px 8px;
+}
+.contentContentActive{
+    color: #000000;
+}
+
+
+
+
+

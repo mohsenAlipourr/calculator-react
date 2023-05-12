@@ -1,15 +1,7 @@
-.calculator{
+.calculatorContainer{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    width: 265px;
-    height: 490px;
-    margin: auto;
-    border-radius: 20px;
-    background-color: #22252d;
+    background: #f4f2f3;
+    min-height: 100vh;
 }
-.calculatorActive{
-    
-    background-color: #ffffff;
-}
+

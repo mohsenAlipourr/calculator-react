@@ -3,7 +3,7 @@ import "./style.css";
 const CalculatorButton = ({ onClick, isLightTheme, title, className }) => {
   return (
     <button
-      className={`contentButtonRowNumber ${isLightTheme ? "active" : ""} ${
+      className={`calculatorButton ${isLightTheme ? "active" : ""} ${
         className || ""
       }`}
       onClick={onClick}

@@ -2,7 +2,7 @@ import CalculatorButton from "./calculatorButton";
 import { getButtons } from "./staticData";
 import "./style.css";
 
-const ContentButtons = ({
+const CalculatorButtons = ({
   handelButtonValues,
   equal,
   reset,
@@ -33,4 +33,4 @@ const ContentButtons = ({
   );
 };
 
-export default ContentButtons;
+export default CalculatorButtons;

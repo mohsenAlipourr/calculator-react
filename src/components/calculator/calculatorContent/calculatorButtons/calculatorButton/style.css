@@ -1,4 +1,4 @@
-.contentButtonRowNumber{
+.calculatorButton{
     font-size: 20px;
     width: 45px;
     height: 45px;
@@ -9,12 +9,12 @@
     cursor: pointer;
     margin: 0px 10px;
 }
-.contentButtonRowNumber.active{
+.calculatorButton.active{
     background-color: #ebecec;
     color: black;
     border: 1px solid #ebecec;
 }
-.contentButtonRowNumber img{
+.calculatorButton img{
     width: 18px;
     height: 18px;
 }

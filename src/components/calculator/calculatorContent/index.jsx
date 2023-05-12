@@ -1,5 +1,5 @@
 import CalculatorTheme from "./calculatorTheme";
-import ContentButtons from "./calculatorButtons";
+import CalculatorButtons from "./calculatorButtons";
 import "./style.css";
 
 const CalculatorContent = ({
@@ -27,7 +27,7 @@ const CalculatorContent = ({
         </p>
       </div>
 
-      <ContentButtons
+      <CalculatorButtons
         isLightTheme={isLightTheme}
         handelButtonValues={handelValidationValue}
         equal={equal}

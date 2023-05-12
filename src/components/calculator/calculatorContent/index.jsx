@@ -1,5 +1,6 @@
 import CalculatorTheme from "./calculatorTheme";
 import CalculatorButtons from "./calculatorButtons";
+import CalculatorResult from "./calculatorResult";
 import "./style.css";
 
 const CalculatorContent = ({
@@ -19,13 +20,7 @@ const CalculatorContent = ({
         setIsLightTheme={setIsLightTheme}
       />
 
-      <div className="calculatorContent">
-        <p className="calculatorContentHistory">{history}</p>
-
-        <p className="calculatorContentResult">
-          {inputs.map((item) => item.title)}
-        </p>
-      </div>
+      <CalculatorResult inputs={inputs} history={history} />
 
       <CalculatorButtons
         isLightTheme={isLightTheme}

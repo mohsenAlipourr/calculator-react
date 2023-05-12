@@ -1,0 +1,13 @@
+
+.calculatorResultHistory{
+    color: #cdcdcd;
+    width: 225px;
+    height: 25px;
+    direction: rtl;
+}
+.calculatorResult{
+    color: #ffffff;
+    font-size: 40px;
+    margin: -8px 0px 15px 8px;
+    direction: rtl;
+}

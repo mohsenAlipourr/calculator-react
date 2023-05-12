@@ -1,0 +1,21 @@
+.calculatorButtons{
+    display: flex;
+    width: 265px;
+    height: 292px;
+    border-radius: 20px;
+    background-color: #292d36;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.calculatorButtonsActive{
+    background-color: #f8f8f8;
+}
+.colorGreen ,.colorGreen.active{
+    color: #26b69f !important;
+}
+.colorRed ,.colorRed.active{
+    color: #b75659 !important;
+}
+
+

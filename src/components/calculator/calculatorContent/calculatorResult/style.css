@@ -1,17 +1,13 @@
 
-.contentHeader{
-    direction: rtl;
-}
-.contentHeaderHistory{
+.calculatorResultHistory{
     color: #cdcdcd;
     width: 225px;
     height: 25px;
+    direction: rtl;
 }
-.contentHeaderResult{
+.calculatorResult{
     color: #ffffff;
     font-size: 40px;
     margin: -8px 0px 15px 8px;
-}
-.contentHeaderActive{
-    color: #000000;
+    direction: rtl;
 }

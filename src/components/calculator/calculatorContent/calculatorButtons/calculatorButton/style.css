@@ -1,0 +1,20 @@
+.calculatorButton{
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    color: #ffffff;
+    border: 1px solid #292d36;
+    border-radius: 8px;
+    background-color: #262a32;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+.calculatorButton.active{
+    background-color: #ebecec;
+    color: black;
+    border: 1px solid #ebecec;
+}
+.calculatorButton img{
+    width: 18px;
+    height: 18px;
+}

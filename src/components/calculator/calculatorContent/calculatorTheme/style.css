@@ -1,4 +1,4 @@
-.contentTheme{
+.calculatorTheme{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -9,15 +9,15 @@
     background-color: #292d36;
     margin-top: 10px;
 }
-.contentThemeImg{
+.calculatorThemeImg{
     width: 20px;
     cursor: pointer;
 }
-.contentThemeImgActive {
+.calculatorThemeImgActive {
     border: 1px solid #a7a7a7;
     border-radius: 8px;
 }
-.contentThemeActive{
+.calculatorThemeActive{
     background-color: #efefef;
     border: 1px solid #f9f9f9;
 }

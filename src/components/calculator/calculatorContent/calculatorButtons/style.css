@@ -1,4 +1,4 @@
-.contentButton{
+.calculatorButtons{
     display: flex;
     width: 265px;
     height: 292px;
@@ -8,7 +8,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.contentButtonActive{
+.calculatorButtonsActive{
     background-color: #f8f8f8;
 }
 .colorGreen ,.colorGreen.active{

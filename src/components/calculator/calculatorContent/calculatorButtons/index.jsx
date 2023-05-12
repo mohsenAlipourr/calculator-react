@@ -19,7 +19,9 @@ const CalculatorButtons = ({
 
   return (
     <div
-      className={`contentButton ${isLightTheme ? "contentButtonActive" : ""}`}
+      className={`calculatorButtons ${
+        isLightTheme ? "calculatorButtonsActive" : ""
+      }`}
     >
       {buttons.map((item) => (
         <CalculatorButton

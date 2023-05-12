@@ -20,9 +20,9 @@ const CalculatorContent = ({
       />
 
       <div className="calculatorContent">
-        <p className="contentContentHistory">{history}</p>
+        <p className="calculatorContentHistory">{history}</p>
 
-        <p className="contentContentResult">
+        <p className="calculatorContentResult">
           {inputs.map((item) => item.title)}
         </p>
       </div>

@@ -16,11 +16,15 @@ const CalculatorTheme = ({ isLightTheme, setIsLightTheme }) => {
   ];
 
   return (
-    <div className={`contentTheme ${isLightTheme ? "contentThemeActive" : ""}`}>
+    <div
+      className={`calculatorTheme ${
+        isLightTheme ? "calculatorThemeActive" : ""
+      }`}
+    >
       {listTheme.map((item, index) => (
         <img
-          className={`contentThemeImg ${
-            item.isActive ? "contentThemeImgActive" : ""
+          className={`calculatorThemeImg ${
+            item.isActive ? "calculatorThemeImgActive" : ""
           }`}
           src={item.src}
           onClick={item.onClick}

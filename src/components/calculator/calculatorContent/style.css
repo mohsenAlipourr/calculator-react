@@ -15,19 +15,17 @@
 .calculatorContent{
     direction: rtl;
 }
-.contentContentHistory{
+.calculatorContentHistory{
     color: #cdcdcd;
     width: 225px;
     height: 25px;
 }
-.contentContentResult{
+.calculatorContentResult{
     color: #ffffff;
     font-size: 40px;
     margin: -8px 0px 15px 8px;
 }
-.contentContentActive{
-    color: #000000;
-}
+
 
 
 
